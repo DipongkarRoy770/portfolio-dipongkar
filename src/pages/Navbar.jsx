@@ -7,10 +7,10 @@ const Navbar = () => {
   );
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar fixed bg-black max-w-screen-xl bg-opacity-30">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn mr-4 bg-white lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -33,13 +33,19 @@ const Navbar = () => {
               {navOptions}
             </ul>
           </div>
-          <h2 className="text-xl">daisyUI</h2>
+          <h2 className="text-2xl md:pl-12 text-white font-semibold">E D R</h2>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Blog</a>
+        <button
+              type="button"
+              className="bg-gradient-to-r from-green-300 to-blue-700 hover:from-pink-100 hover:to-base-400
+              px-6 py-3 rounded-sm text-emerald-50"
+            >
+              Blog
+            </button>
         </div>
       </div>
     </>

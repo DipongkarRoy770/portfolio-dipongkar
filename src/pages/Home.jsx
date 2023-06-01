@@ -1,10 +1,11 @@
+import HomePart from "../components/HomePart";
 
 
 const Home = () => {
   return (
-    <div>
-      <p>this is home</p>
-    </div>
+    <>
+      <HomePart></HomePart>
+    </>
   );
 };
 
