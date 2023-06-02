@@ -1,7 +1,7 @@
 const HomePart = () => {
   return (
     <>
-      <div className="hero md:h-[550px]">
+      <div className="hero md:h-[700px] lg:h-[580px]">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <iframe
             className="w-1/2 w-full h-72 md:h-96"
@@ -21,6 +21,12 @@ const HomePart = () => {
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
+            <button
+              type="button"
+              className="bg-orange-500 bg-opacity-75 px-6 py-3 rounded text-emerald-50 text-xl hover:bg-red-400 duration-200 mr-3"
+            >
+              Download CV
+            </button>
             <button
               type="button"
               className="bg-orange-500 bg-opacity-75 px-6 py-3 rounded text-emerald-50 text-xl hover:bg-red-400 duration-200"

@@ -1,16 +1,22 @@
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   const navOptions = (
     <>
-      <li>bangla</li>
-      <li>english</li>
+      <li className="text-emerald-50 text-xl">
+        <Link to="">Home</Link>
+      </li>
+      <li className="text-emerald-50 text-xl">
+        <Link to="/about">About</Link>
+      </li>
     </>
   );
   return (
     <>
-      <div className="navbar fixed bg-black max-w-screen-xl bg-opacity-30">
+      <div className="navbar bg-black max-w-screen-xl bg-opacity-30">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn mr-4 bg-white lg:hidden">
+            <label tabIndex={0} className="btn mr-4 bg-yellow-50  md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -39,13 +45,12 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-        <button
-              type="button"
-              className="bg-gradient-to-r from-green-300 to-blue-700 hover:from-pink-100 hover:to-base-400
-              px-6 py-3 rounded-sm text-emerald-50"
-            >
-              Blog
-            </button>
+          <button
+            type="button"
+            className="bg-orange-500 bg-opacity-75 px-6 py-3 rounded text-emerald-50 text-xl hover:bg-red-400 duration-200"
+          >
+            Blog
+          </button>
         </div>
       </div>
     </>
