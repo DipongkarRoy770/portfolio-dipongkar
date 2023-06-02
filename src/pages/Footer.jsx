@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer>
+    <div>
       <div className="footer p-10 bg-neutral bg-opacity-25 text-neutral-content mt-12">
         <div>
           <span className="footer-title">Services</span>
@@ -29,7 +29,7 @@ const Footer = () => {
           <p>Copyright © 2023 - All right reserved by dipongkar</p>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

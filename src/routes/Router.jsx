@@ -3,10 +3,12 @@ import Main from "../layout/Main";
 import Home from "../pages/Home";
 import About from "../components/About";
 import Service from "../components/Service";
+import Contact from "../components/Contact";
+import Blog from "../components/Blog";
 
 export const router = createBrowserRouter([
   { 
-    path:'',
+    path:'/',
     element: <Main></Main>,
     children: [
       {
@@ -20,6 +22,14 @@ export const router = createBrowserRouter([
       {
         path:"/service",
         element:<Service></Service>
+      },
+      {
+        path:"/contact",
+        element:<Contact></Contact>
+      },
+      {
+        path:"/blog",
+        element:<Blog></Blog>
       }
     ],
   },

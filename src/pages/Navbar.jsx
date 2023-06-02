@@ -3,14 +3,17 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const navOptions = (
     <>
-      <li className="text-emerald-50 text-xl">
-        <Link to="">Home</Link>
+      <li className="text-emerald-50 text-xl ">
+        <Link to="/">Home</Link>
       </li>
       <li className="text-emerald-50 text-xl">
         <Link to="/about">About</Link>
       </li>
-      <li className="text-emerald-50 text-xl">
+      <li className="text-emerald-50 text-xl ">
         <Link to="/service">Service</Link>
+      </li>
+      <li className="text-emerald-50 text-xl">
+        <Link to="/contact">Contact</Link>
       </li>
     </>
   );
@@ -19,7 +22,7 @@ const Navbar = () => {
       <div className="navbar bg-black max-w-screen-xl bg-opacity-30">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn mr-4 bg-yellow-50  md:hidden">
+            <label tabIndex={0} className="btn mr-4 bg-red-200  md:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -48,12 +51,14 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
+          <Link to='/blog'>
           <button
             type="button"
             className="bg-orange-500 bg-opacity-75 px-6 py-3 rounded text-emerald-50 text-xl hover:bg-red-400 duration-200"
           >
             Blog
           </button>
+          </Link>
         </div>
       </div>
     </>
