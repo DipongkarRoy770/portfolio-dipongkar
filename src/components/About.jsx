@@ -50,7 +50,7 @@ const About = () => {
             </p>
           </div>
           {/* todu image work */}
-          <img className="w-1/2 w-full h-70 mt-28 md:h-96" src={portfolio}></img>
+          <img style={{borderRadius:'150px 0px 150px 0px'}} className="w-1/2 w-full  h-70 mt-28 md:h-96" src={portfolio}></img>
         </div>
       </div>
     </>

@@ -1,0 +1,39 @@
+[
+    {  
+      "id":1,
+      "title": "Front-end Developer",
+      "img":"https://i0.wp.com/plopdo.com/wp-content/uploads/2021/07/Screenshot-1.png?resize=1210%2C642&ssl=1",
+      "description": "Responsible for creating the user-facing portion of websites and web applications using HTML, CSS, and JavaScript."
+      
+    },
+    {   "id":2,
+      "title": "UI/UX Designer",
+      "img":"https://i0.wp.com/toghr.com/wp-content/uploads/2019/07/kamu-harus-paham-perbedaan-UX-dan-UI.jpg?fit=2000%2C1125&ssl=1",
+      "description": "Responsible for creating visually appealing and user-friendly interfaces for websites and web applications."
+      
+    },
+    
+    {  "id":3,
+      "title": "Web Developer",
+      "img":"https://miro.medium.com/v2/resize:fit:1400/format:webp/0*M4bxiCIjcTK-2Xr6.jpeg",
+      "description": "Responsible for developing and maintaining websites using programming languages and content management systems."
+      
+    },
+    {   "id":4,
+      "title": "Web Designer",
+      "img":"https://images.ctfassets.net/freurdme1ae3/2HCYLUixcXQ9kKNo3P6TYL/410c2da5e5ce204f2ff32e965a9187db/Website-Design-new.jpeg?w=940&h=529&q=80&fm=webp&fit=fill&f=face",
+      "description": "Responsible for creating visually appealing website layouts and designs using graphic design and web development skills."
+      
+    },
+    {   "id":5,
+      "title": "Ultra Responsive",
+      "img":"https://web-dev.imgix.net/image/T4FyVKpzu4WKF1kBNvXepbi08t52/cQKbjztkJ45DQoIw3sNH.png?auto=format&w=845",
+      "description": "Responsible for creating and customizing websites using WordPress, including theme development and plugin integration."
+    },
+    {   "id":6,
+      "title": "Creative Design ",
+      "img":"https://graphicsfamily.com/wp-content/uploads/edd/2021/08/Creative-Idea-Logo-Design-1536x864.jpg",
+      "description": "Responsible for creating and customizing websites using WordPress, including theme development and plugin integration."
+      
+    }
+]

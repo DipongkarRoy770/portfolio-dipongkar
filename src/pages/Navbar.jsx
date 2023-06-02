@@ -9,6 +9,9 @@ const Navbar = () => {
       <li className="text-emerald-50 text-xl">
         <Link to="/about">About</Link>
       </li>
+      <li className="text-emerald-50 text-xl">
+        <Link to="/service">Service</Link>
+      </li>
     </>
   );
   return (

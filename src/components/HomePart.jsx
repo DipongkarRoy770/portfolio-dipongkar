@@ -23,13 +23,13 @@ const HomePart = () => {
             </p>
             <button
               type="button"
-              className="bg-orange-500 bg-opacity-75 px-6 py-3 rounded text-emerald-50 text-xl hover:bg-red-400 duration-200 mr-3"
+              className="border-amber-200 border-2 px-6 py-3 rounded text-emerald-50 text-xl hover:bg-red-400 duration-200 mr-3"
             >
               Download CV
             </button>
             <button
               type="button"
-              className="bg-orange-500 bg-opacity-75 px-6 py-3 rounded text-emerald-50 text-xl hover:bg-red-400 duration-200"
+              className="border-amber-200 border-2 px-6 py-3 rounded text-emerald-50 text-xl hover:bg-red-400 duration-200"
             >
               Resume
             </button>
