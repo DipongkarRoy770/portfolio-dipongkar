@@ -51,7 +51,7 @@ const Contact = () => {
                 className=" text-white bg-black text-xl px-3 mt-3 rounded border-emerald-200 border-2"
                 name=""
                 id=""
-                cols="50"
+                cols="40"
                 rows="5"
                 placeholder="your comment write now....."
               ></textarea>

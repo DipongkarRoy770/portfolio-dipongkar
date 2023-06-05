@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div>
-      <div className="footer p-10 bg-neutral bg-opacity-25 text-neutral-content mt-12">
+      <div className="gird grid-cols-3 footer p-10 bg-neutral bg-opacity-25 text-neutral-content mt-12">
         <div>
           <span className="footer-title">Services</span>
           <a className="link link-hover">Web Designer</a>
