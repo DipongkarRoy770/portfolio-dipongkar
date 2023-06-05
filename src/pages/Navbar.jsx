@@ -40,12 +40,12 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm dropdown-content mt-3 pl-4 bg-black bg-opacity-30 rounded w-42"
             >
               {navOptions}
             </ul>
           </div>
-          <h2 className="text-2xl md:pl-12 text-white font-semibold">E D R</h2>
+          <h2 className="text-2xl md:pl-12 text-white font-semibold"><span className="text-orange-400">E</span> D <span className="text-rose-400">R</span></h2>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>

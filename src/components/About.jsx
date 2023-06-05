@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet-async";
 import portfolio from "../assets/dipongkar Roy portfolio.jpg";
 
 const About = () => {
   return (
     <>
+      <Helmet>
+        <title>dipongkar | about</title>
+      </Helmet>
       <div className="hero md:h-[980px] lg:h-[650px]">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="w-1/2 px-6 w-full md:pl-10">
@@ -50,7 +54,11 @@ const About = () => {
             </p>
           </div>
           {/* todu image work */}
-          <img style={{borderRadius:'150px 0px 150px 0px'}} className="w-1/2 w-full  h-70 mt-28 md:h-96" src={portfolio}></img>
+          <img
+            style={{ borderRadius: "150px 0px 150px 0px" }}
+            className="w-1/2 w-full  h-70 mt-28 md:h-96"
+            src={portfolio}
+          ></img>
         </div>
       </div>
     </>

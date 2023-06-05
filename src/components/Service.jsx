@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useEffect, useState } from "react";
 import ServiceCart from "./ServiceCart";
 
@@ -11,6 +12,9 @@ const Service = () => {
   }, []);
   return (
     <div className="mt-12">
+      <Helmet>
+        <title>dipongkar |service</title>
+      </Helmet>
       <div className="text-center">
         <h1 className="text-4xl text-white font-light">My Services</h1>
         <p className="text-emerald-50 mt-4">-~- Which services I provied -~-</p>

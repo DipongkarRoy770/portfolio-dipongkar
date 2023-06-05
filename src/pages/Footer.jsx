@@ -12,9 +12,18 @@ const Footer = () => {
         </div>
         <div>
           <span className="footer-title">Company</span>
-         <Link to='/about'> <a className="link link-hover">About</a></Link>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
+          <Link to="/about">
+            {" "}
+            <a className="link link-hover">About</a>
+          </Link>
+          <Link to="/contact">
+            {" "}
+            <a className="link link-hover">Contact</a>
+          </Link>
+          <Link to="/service">
+            {" "}
+            <a className="link link-hover">Service</a>
+          </Link>
         </div>
         <div>
           <span className="footer-title">Legal</span>
