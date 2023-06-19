@@ -1,10 +1,15 @@
 const HomePart = () => {
+  const resume = ()=>{
+    //window.location.href('')
+    window.location.href = "https://docs.google.com/document/d/1WhxskYkzTKPj4PVwUPz5rxDNa6ISlyLK-qTUM7romgI";
+
+  }
   return (
     <>
       <div className="hero md:h-[700px] lg:h-[580px] mt-32 md:mt-16">
         <div className="hero-content w-full flex-col md:flex-row-reverse">
           <iframe
-            className="w-full px-2  bg-black bg-opacity-75 md:w-1/2 h-72 md:h-96"
+            className="w-full px-2 md:w-1/2 h-72 md:h-96 scale-95 duration-200 hover:scale-110"
             src="https://embed.lottiefiles.com/animation/97639"
           ></iframe>
 
@@ -22,8 +27,10 @@ const HomePart = () => {
             
             <button
               type="button"
-              className="border-amber-200 border-2 hover:border-rose-500 px-6 py-3 rounded text-emerald-50 text-xl hover:bg-orange-400 duration-400"
+              onClick={resume}
+              className="border-amber-200 border-2 hover:border-rose-500 px-6 py-3 rounded text-emerald-50 text-xl"
             >
+              {/* <a href="file:///E:/download/Resume.pdf">Resume</a> */}
               Resume
             </button>
           </div>
