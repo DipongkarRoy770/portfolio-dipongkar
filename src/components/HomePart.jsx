@@ -1,19 +1,19 @@
 const HomePart = () => {
   return (
     <>
-      <div className="hero md:h-[700px] lg:h-[580px]">
+      <div className="hero md:h-[700px] lg:h-[580px] mt-32 md:mt-16">
         <div className="hero-content w-full flex-col md:flex-row-reverse">
           <iframe
-            className="w-full px-2 md:w-1/2 h-72 md:h-96"
+            className="w-full px-2  bg-black bg-opacity-75 md:w-1/2 h-72 md:h-96"
             src="https://embed.lottiefiles.com/animation/97639"
           ></iframe>
 
           <div className="w-full md:w-1/2 md:px-5">
-            <h1 className="text-5xl font-semibold text-emerald-50">
+            <h1 className="text-5xl font-bold text-emerald-50">
               <span className="bg-gradient-to-r from-indigo-500">Hello!</span> I
               am
             </h1>
-            <h1 className="text-5xl font-mono text-orange-400 mt-3">
+            <h1 className="text-5xl font-semibold text-orange-400 mt-3">
               Dipongkar Roy
             </h1>
             <h2 className="py-6 text-emerald-50 text-3xl">

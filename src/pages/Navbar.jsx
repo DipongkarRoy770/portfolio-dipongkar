@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="navbar bg-black max-w-screen-xl bg-opacity-30">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn mr-4 bg-red-200  md:hidden">
+            <label tabIndex={0} className="btn mr-4 bg-red-200  lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
