@@ -7,9 +7,9 @@ const About = () => {
       <Helmet>
         <title>dipongkar | about</title>
       </Helmet>
-      <div className="hero md:h-[980px] lg:h-[650px]">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <div className="w-1/2 px-6 w-full md:pl-10">
+      <div className="hero mt-12 md:h-[980px] lg:h-[650px]">
+        <div className="hero-content flex-col md:flex-row-reverse">
+          <div className="md:w-1/2 w-full px-3 md:px-2">
             <h1 className="text-2xl text-emerald-50">
               <span className="bg-gradient-to-r from-indigo-500">
                 INTRODUCTION
@@ -33,8 +33,8 @@ const About = () => {
             </h1>
             <hr className="border-2 border-y-pink-200 my-2" />
             <p className="text-emerald-50 text-1xl">
-              HTML4/5, CSS, JavaScript, ES6, React.Js, Express.Js,Firebase,
-              MongoDB Basic, Material UI, Bootstrap, Tailwind CSS,React Awesome.
+              HTML4/5, CSS, JavaScript, ES6, React.Js,Firebase,
+              Material UI, Bootstrap, Tailwind CSS,React Awesome.
             </p>
             <h1 className="text-2xl text-emerald-50 mt-4">
               <span className="bg-gradient-to-r from-indigo-500">TOOlS</span>
@@ -56,7 +56,7 @@ const About = () => {
           {/* todu image work */}
           <img
             style={{ borderRadius: "150px 0px 150px 0px" }}
-            className="w-1/2 w-full  h-70 mt-28 md:h-96"
+            className="md:w-1/2 w-full  h-70 mt-24 md:h-96"
             src={portfolio}
           ></img>
         </div>
