@@ -1,6 +1,5 @@
 const HomePart = () => {
   const resume = ()=>{
-    //window.location.href('')
     window.location.href = "https://docs.google.com/document/d/1WhxskYkzTKPj4PVwUPz5rxDNa6ISlyLK-qTUM7romgI";
 
   }
