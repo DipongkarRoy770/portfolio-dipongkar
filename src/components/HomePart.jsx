@@ -1,6 +1,6 @@
 const HomePart = () => {
   const resume = ()=>{
-    window.location.href = "https://docs.google.com/document/d/1WhxskYkzTKPj4PVwUPz5rxDNa6ISlyLK-qTUM7romgI";
+    window.location.href = "https://docs.google.com/document/d/1vrJuAedsnq8RcO2NW5BWMiVhccEkOgJZEp3xgSh8JI0";
 
   }
   return (
@@ -29,7 +29,7 @@ const HomePart = () => {
               onClick={resume}
               className="border-amber-200 border-2 hover:border-rose-500 px-6 py-3 rounded text-emerald-50 text-xl"
             >
-              {/* <a href="file:///E:/download/Resume.pdf">Resume</a> */}
+              
               Resume
             </button>
           </div>
