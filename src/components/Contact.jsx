@@ -33,10 +33,7 @@ const Contact = () => {
               ABOUT ME
             </h1>
             <p className="py-6 text-emerald-50 text-1xl">
-              Event definition is - somthing that happens occurre How evesnt
-              sentence. Synonym when an unknown printer took a galley. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Tempora,
-              corporis?
+            I actively seek out new technologies and stay up-to-date on industry trends and advancements. Building state-of-the-art, easy-to-use, user- friendly websites and applications is truly a passion of mine. my strengths are my analytical approach, I believe in being realistic.
             </p>
             <h3 className="text-emerald-50 text-3xl">OFFICE IN RANGPUR</h3>
 
