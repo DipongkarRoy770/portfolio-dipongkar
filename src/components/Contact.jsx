@@ -73,7 +73,7 @@ const Contact = () => {
                 placeholder="your comment write now....."
               ></textarea> <br />
               <input
-                className="border-amber-200 border-2 px-6 py-3 rounded mt-6 text-emerald-50 text-xl hover:bg-red-400 duration-200"
+                className="border-amber-200 border-2 px-6 py-3 rounded mt-6 text-emerald-50 text-xl hover:bg-black duration-200"
                 type="submit"
                 value="Send Now"
               />

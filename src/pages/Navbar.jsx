@@ -1,20 +1,13 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navOptions = (
     <>
-      <li className="text-emerald-50 text-xl ">
-        <Link to="/">Home</Link>
-      </li>
-      <li className="text-emerald-50 text-xl">
-        <Link to="/about">About</Link>
-      </li>
-      <li className="text-emerald-50 text-xl ">
-        <Link to="/service">Service</Link>
-      </li>
-      <li className="text-emerald-50 text-xl">
-        <Link to="/contact">Contact</Link>
-      </li>
+       <NavLink className="text-emerald-50 text-xl p-3 rounded-sm" to="/">Home</NavLink>
+       <NavLink className="text-emerald-50 text-xl p-3 rounded-sm" to="/about">About</NavLink>
+       <NavLink className="text-emerald-50 text-xl p-3 rounded-sm" to="/service">Service</NavLink>
+       <NavLink className="text-emerald-50 text-xl p-3 rounded-sm" to="/contact">Contact</NavLink>
+      
     </>
   );
   return (
