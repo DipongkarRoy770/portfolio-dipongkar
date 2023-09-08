@@ -12,7 +12,7 @@ const Navbar = () => {
   );
   return (
     <>
-      <div className="navbar bg-black max-w-screen-xl bg-opacity-30">
+      <div className="navbar bg-rose-300 opacity-15 max-w-screen-xl bg-opacity-30">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn mr-4 bg-red-200  lg:hidden">
@@ -38,7 +38,7 @@ const Navbar = () => {
               {navOptions}
             </ul>
           </div>
-          <h2 className="text-2xl md:pl-12 text-white font-semibold"><span className="text-orange-400">E</span> D <span className="text-rose-400">R</span></h2>
+          <h2 className="text-3xl md:pl-12 text-white font-semibold"><span className="text-orange-400">E</span> D <span className="text-rose-400">R</span></h2>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>

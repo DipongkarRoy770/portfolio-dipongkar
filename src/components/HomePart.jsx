@@ -1,4 +1,6 @@
 import Animation from "./Animation";
+import Lottie from "lottie-react";
+import ani from '../../public/animation.json'
 
 const HomePart = () => {
   const resume = () => {
@@ -9,11 +11,7 @@ const HomePart = () => {
     <>
       <div className="hero md:h-[700px] lg:h-[580px] mt-32 md:mt-16">
         <div className="hero-content w-full flex-col md:flex-row-reverse">
-          <iframe
-            className="w-full px-2 md:w-1/2 h-72 md:h-96 scale-95 duration-200 hover:scale-110"
-            src="https://embed.lottiefiles.com/animation/97639"
-          ></iframe>
-
+          <Lottie animationData={ani} />
           <div className="w-full md:w-1/2 md:px-5">
             <h1 className="text-5xl font-bold text-emerald-50">
               <span className="bg-gradient-to-r from-indigo-500">Hello!</span> I
@@ -22,9 +20,6 @@ const HomePart = () => {
             <h1 className="text-5xl mb-5 font-semibold text-orange-400 mt-3">
               Dipongkar Roy
             </h1>
-            {/* <h2 className="py-6 text-emerald-50 text-3xl">
-              I am <span className="text-orange-200">Fronted Developer</span>
-            </h2> */}
             <Animation></Animation> <br />
             <button
               type="button"

@@ -23,7 +23,7 @@ const Contact = () => {
       <Helmet>
         <title>dipongkar | Contact</title>
       </Helmet>
-      <div className="mt-12">
+      <div className="mt-28 md:mt-12 lg:mt-6">
         <h1 className="text-center text-3xl text-emerald-50 mt-2">
           <span className="bg-gradient-to-r from-indigo-500">Contact me</span>
         </h1>

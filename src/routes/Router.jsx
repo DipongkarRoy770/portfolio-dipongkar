@@ -7,29 +7,32 @@ import Contact from "../components/Contact";
 import Blog from "../components/Blog";
 
 export const router = createBrowserRouter([
-  { 
-    path:'/',
+  {
+    path: '/',
     element: <Main></Main>,
     children: [
       {
         path: "/",
         element: <Home></Home>,
+
       },
       {
         path: "/about",
         element: <About></About>,
       },
       {
-        path:"/service",
-        element:<Service></Service>
+        path: "/service",
+        element: <Service></Service>,
+        loader: () => fetch('web.json')
+
       },
       {
-        path:"/contact",
-        element:<Contact></Contact>
+        path: "/contact",
+        element: <Contact></Contact>
       },
       {
-        path:"/blog",
-        element:<Blog></Blog>
+        path: "/blog",
+        element: <Blog></Blog>
       }
     ],
   },

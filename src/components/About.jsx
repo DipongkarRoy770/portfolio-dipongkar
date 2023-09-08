@@ -7,7 +7,7 @@ const About = () => {
       <Helmet>
         <title>dipongkar | about</title>
       </Helmet>
-      <div className="hero mt-12 md:h-[980px] lg:h-[650px]">
+      <div className="hero mt-20 md:mt-12 lg:mt-6 md:h-[980px] lg:h-[650px]">
         <div className="hero-content flex-col md:flex-row-reverse">
           <div className="md:w-1/2 w-full px-3 md:px-2">
             <h1 className="text-2xl text-emerald-50">
