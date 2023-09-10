@@ -1,6 +1,7 @@
 import Animation from "./Animation";
 import Lottie from "lottie-react";
 import ani from '../../public/animation.json'
+import ScambleText from "./ScambleText";
 
 const HomePart = () => {
   const resume = () => {
@@ -17,9 +18,10 @@ const HomePart = () => {
               <span className="bg-gradient-to-r from-indigo-500">Hello!</span> I
               am
             </h1>
-            <h1 className="text-5xl mb-5 font-semibold text-orange-400 mt-3">
+            {/* <h1 className="text-5xl mb-5 font-semibold text-orange-400 mt-3">
               Dipongkar Roy
-            </h1>
+            </h1> */}
+            <ScambleText></ScambleText>
             <Animation></Animation> <br />
             <button
               type="button"
