@@ -10,7 +10,7 @@ const HomePart = () => {
   };
   return (
     <>
-      <div className="hero md:h-[700px] lg:h-[580px] mt-32 md:mt-16">
+      <div className="hero md:h-[400px] lg:h-[580px]">
         <div className="hero-content w-full flex-col md:flex-row-reverse">
           <Lottie animationData={ani} />
           <div className="w-full md:w-1/2 md:px-5">

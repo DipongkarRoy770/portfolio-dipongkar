@@ -7,15 +7,15 @@ const About = () => {
       <Helmet>
         <title>dipongkar | about</title>
       </Helmet>
-      <div className="hero mt-20 md:mt-12 lg:mt-6 md:h-[980px] lg:h-[650px]">
+      <div className="hero md:h-[980px] lg:h-[650px]">
         <div className="hero-content flex-col md:flex-row-reverse">
           <div className="md:w-1/2 w-full px-3 md:px-2">
             <h1 className="text-2xl text-emerald-50">
-              <span className="bg-gradient-to-r from-indigo-500">
+              <span className="text-center bg-gradient-to-r from-indigo-500">
                 INTRODUCTION
               </span>
             </h1>
-            <h1 className="text-5xl font-mono text-white  mt-2 font-bold">
+            <h1 className="text-5xl pt-6 font-mono text-white  mt-2 font-bold">
               ABOUT ME
             </h1>
             <p className="py-6 text-emerald-50 text-1xl">

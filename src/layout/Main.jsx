@@ -1,6 +1,7 @@
 import { Outlet, useNavigation } from "react-router-dom";
 import Navbar from "../pages/Navbar";
 import Footer from "../pages/Footer";
+import Loader from "../components/Loader";
 
 const Main = () => {
   const navigation = useNavigation();
@@ -9,8 +10,8 @@ const Main = () => {
     <>
       <Navbar></Navbar>
       <div>
-      {navigation.state === 'loading' ?<span className="bg-white loading loading-bars loading-lg"></span>:''}
-     </div>
+        {navigation.state === 'loading' ? <Loader></Loader> : ''}
+      </div>
       <Outlet></Outlet>
       <Footer></Footer>
     </>

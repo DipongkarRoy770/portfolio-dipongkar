@@ -23,8 +23,6 @@ export const router = createBrowserRouter([
       {
         path: "/service",
         element: <Service></Service>,
-        loader: () => fetch('web.json')
-
       },
       {
         path: "/contact",

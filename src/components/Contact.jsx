@@ -19,18 +19,18 @@ const Contact = () => {
       });
   };
   return (
-    <>
+    <div className="px-6">
       <Helmet>
         <title>dipongkar | Contact</title>
       </Helmet>
-      <div className="mt-28 md:mt-12 lg:mt-6">
-        <h1 className="text-center text-3xl text-emerald-50 mt-2">
-          <span className="bg-gradient-to-r from-indigo-500">Contact me</span>
+      <div>
+        <h1 className="text-center text-3xl text-emerald-50 mt-6 px-12">
+          <span className="bg-gradient-to-r from-indigo-500 ">Contact me</span>
         </h1>
         <div className=" md:flex mt-10">
           <div className="w-full md:w-1/2 px-3">
             <h1 className="text-5xl font-mono text-white  mt-2 font-bold">
-              ABOUT ME
+              Contact ME
             </h1>
             <p className="py-6 text-emerald-50 text-1xl">
             I actively seek out new technologies and stay up-to-date on industry trends and advancements. Building state-of-the-art, easy-to-use, user- friendly websites and applications is truly a passion of mine. my strengths are my analytical approach, I believe in being realistic.
@@ -79,7 +79,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
